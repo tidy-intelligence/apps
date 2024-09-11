@@ -1,0 +1,21 @@
+---
+metadata:
+  pagetitle: "Tidy Intelligence Apps"
+  description-meta: "A collection of prototype and showcase apps."
+listing:
+  contents: apps
+  sort: "date desc"
+  type: grid
+  fields: [image, description, title]
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  image-height: 100%
+page-layout: article
+title-block-banner: false
+comments: false
+format: 
+  html:
+    include-after-body: 
+      - assets/html/bottom-index.html
+---

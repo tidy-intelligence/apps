@@ -1,0 +1,16 @@
+---
+title: "Stock Analyzer"
+description: "Computes stock-specific return metrics & optimal portfolio weights for your favorite stocks"
+metadata:
+  pagetitle: "Stock Analyzer App"
+author: "Christoph Scheuch"
+date: "2024-09-12" 
+image: thumbnail.png
+image-alt: An image of the stock analyzer app.
+categories: 
+  - R
+---
+
+```{=html}
+<iframe id="example1" src="https://christophscheuch.shinyapps.io/app-stock-analyzer/" style="border: none; width: 100%; height: 1900px" frameborder="0"></iframe>
+```

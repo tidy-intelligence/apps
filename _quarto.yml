@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: docs
+
+link-citations: true
+links-as-notes: true
+
+website:
+  title: "Tidy Intelligence"
+  description: "Let your data spark joy!"
+  site-url: https://apps.tidy-intelligence.com
+  open-graph: true
+  favicon: assets/img/favicon.ico
+  search: false
+  page-navigation: false
+  twitter-card: true
+  google-analytics: 
+    tracking-id: "G-YQF6MZY01S"
+    storage: cookies
+    anonymize-ip: true
+    version: 4
+  cookie-consent: 
+    type: express
+    style: interstitial
+  navbar:
+    logo-href: https://www.tidy-intelligence.com
+    pinned: true
+    left:
+      - text: "Home"
+        url: https://www.tidy-intelligence.com/
+      - text: "Apps"
+        file: index.qmd
+      - text: "Blog"
+        url: https://blog.tidy-intelligence.com/
+      - text: "Contact"
+        url: https://www.tidy-intelligence.com/contact.html
+      - text: "Swag"
+        url: https://www.etsy.com/shop/tidyswag/?etsrc=sdt&utm_source=tidy-intelligence.com
+
+format:
+  html:
+    theme: cosmo
+    css: 
+      - assets/css/styles-global.css
+      - assets/css/styles-apps.css 
+    include-after-body: 
+      - assets/html/bottom-footer.html
+      - assets/html/bottom-follow.html
+    

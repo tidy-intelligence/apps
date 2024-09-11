@@ -1,0 +1,299 @@
+h1 {
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+  
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+  
+/* Styling of grid items on blog overview */
+.quarto-grid-item {
+  border: none;
+  border-radius: 8px;
+  transition: box-shadow 0.4s;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.quarto-grid-item:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.listing-author {
+  display: none; 
+}
+  
+.listing-date {
+  display: none; 
+}
+  
+.card-body {
+  padding: 8px 8px 8px 8px;
+}
+  
+.card-img {
+  padding-bottom: 8px;
+  border-radius: 8px;
+}
+  
+.listing-tile {
+  margin-top: 8px;
+}
+  
+.listing-description {
+  padding-top: 8px;
+}
+  
+.description {
+  display: none;
+}
+  
+#title-block-header.quarto-title-block.default .quarto-title-meta-heading {
+  text-transform: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.card-body::after {
+  content: "Test app \2192";
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  font-size: .9em;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: right;
+  position: relative;
+  color: black;
+}
+
+.card-body:hover::after, 
+.quarto-grid-item:hover .card-body::after,
+.card-body:active::after {
+  text-decoration: underline;
+}
+  
+/* Styling of panel tabset */
+.panel-tabset {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  overflow: hidden; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 0px;
+  margin: 0px 0px 16px 0px;
+}
+
+pre {
+  margin: 0px
+}
+
+.tab-content {
+  border: none; 
+  outline: none; 
+  margin: 0px
+}
+
+.nav-item[role="presentation"] {
+  border: none; 
+  outline: none;
+  min-width: 92px;
+  text-align: center  ;
+}
+
+.nav-link {
+  border: none; 
+  outline: none; 
+}
+
+.nav-tabs {
+  border: 0px 0px 2px 0px; 
+  outline: none; 
+}
+
+.nav-link:hover {
+  border: none; 
+  outline: none; 
+  color: black;
+}
+
+.nav-link[role="tab"].active {
+  outline: none; 
+  font-weight: bold;
+  transition: none;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 4px solid var(--main-color); 
+}
+
+.nav-link {
+  border: none; 
+  outline: none; 
+  font-weight: light;
+  color: black;
+  transition: none;
+}
+
+#TOC .nav-link.active {
+    color: var(--main-color) !important;
+}
+
+#TOC .nav-link:hover {
+    color: var(--main-color) !important;
+}
+
+#TOC .nav-link.hover {
+    color: var(--main-color) !important;
+}
+/* Basic styling for the category divs */
+.quarto-listing-category-title {
+  padding-top: 24px;
+  padding-block: 8px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+.category {
+    display: inline-block;
+    padding: 4px 8px; 
+    border-radius: 24px;
+    border: 1px solid var(--main-color);
+    background-color: white;
+    color: var(--main-color);
+    text-align: center;
+    margin: 2px; 
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.category.active {
+    background-color: var(--main-color);
+    color: white; 
+    font-weight: normal;
+}
+
+.quarto-category-count {
+  display: none;
+}
+
+.quarto-categories {
+  display: none !important;
+}
+
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.article {
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #fff;
+    border: none;
+    transition: box-shadow 0.4s;
+    border-radius: 8px;
+    overflow: hidden; 
+    margin-bottom: 0px; 
+}
+
+.article:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* For mobile screens */
+@media screen and (max-width: 600px) {
+    .articles-container {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .article {
+      flex: 0 0 auto;
+      margin-right: 16px;
+      width: 80%;
+    }
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.article .card-body {
+    padding: 8px;
+    flex-grow: 1;
+}
+
+.article .card-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.1em;
+  color: black;
+  overflow-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.article .card-text {
+    font-size: .9em;
+    color: black;
+    overflow-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* giscus styling */
+.giscus::before {
+    content: "Discussion";
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold; 
+    margin-bottom: 16px; 
+}
+
+/* linkedin follow button */
+.linkedin-follow-button {
+    display: inline-block;
+    background-color: var(--main-color);
+    color: white;
+    padding: 0px 8px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-left: 4px;
+}
+
+.linkedin-follow-button i {
+    margin-right: 4px;
+}
+
+.quarto-title-meta-contents p, .quarto-title-meta-contents a.linkedin-follow-button {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.quarto-title-meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+    .quarto-title-meta {
+       display: block !important;
+    }
+    
+    .quarto-title-meta > div {
+        width: 100%; 
+    }
+    
+    .quarto-title-meta-contents {
+      padding: 0px 0px 8px 0px;
+    }
