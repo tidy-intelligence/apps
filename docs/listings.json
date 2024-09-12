@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/apps/alpha-estimator/index.html",
       "/apps/stock-analyzer/index.html"
     ]
   }
