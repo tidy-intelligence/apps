@@ -18,6 +18,6 @@
     "href": "apps/alpha-estimator/index.html",
     "title": "Alpha Estimator",
     "section": "",
-    "text": "This shiny app estimates stock-specific CAPM alphas and betas for your favorit stocks from selected market indexes.\nThis app is a prototype based on the book Tidy Finance with R and a submission for the 2024 Shiny Contest by Posit.\nYou can find the app on shinyapps.io and the source on Github."
+    "text": "This shiny app estimates stock-specific CAPM alphas and betas for your favorite stocks from selected market indexes.\nThis app is a prototype based on the book Tidy Finance with R and a submission for the 2024 Shiny Contest by Posit.\nYou can find the app on shinyapps.io and the source on Github."
   }
 ]
