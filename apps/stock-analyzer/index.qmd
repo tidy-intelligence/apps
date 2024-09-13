@@ -11,6 +11,12 @@ categories:
   - R
 ---
 
+This shiny app computes stock-specific return metrics and optimal portfolio weights for your favorite stocks from the S&P 500 index. 
+
+This app is a prototype based on the book [Tidy Finance with R](https://www.tidy-finance.org/) and a submission for the [2024 Table Contest](https://posit.co/blog/announcing-the-2024-table-contest/) by Posit.
+
+You can find the app on [shinyapps.io](https://christophscheuch.shinyapps.io/app-stock-analyzer/) and the source on [Github](https://github.com/tidy-intelligence/app-stock-analyzer).
+
 ```{=html}
 <iframe id="example1" src="https://christophscheuch.shinyapps.io/app-stock-analyzer/" style="border: none; width: 100%; height: 1900px" frameborder="0"></iframe>
 ```

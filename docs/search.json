@@ -1,9 +1,23 @@
 [
   {
+    "objectID": "apps/stock-analyzer/index.html",
+    "href": "apps/stock-analyzer/index.html",
+    "title": "Stock Analyzer",
+    "section": "",
+    "text": "This shiny app computes stock-specific return metrics and optimal portfolio weights for your favorite stocks from the S&P 500 index.\nThis app is a prototype based on the book Tidy Finance with R and a submission for the 2024 Table Contest by Posit.\nYou can find the app on shinyapps.io and the source on Github."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Tidy Intelligence",
     "section": "",
     "text": "Alpha Estimator\n\n\nEstimate asset-specific CAPM alphas & betas for selected markets\n\n\n\n\n\n\n\n\n\n\n\n\n\nStock Analyzer\n\n\nCompute stock-specific return metrics & optimal portfolio weights for your favorite stocks\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "apps/alpha-estimator/index.html",
+    "href": "apps/alpha-estimator/index.html",
+    "title": "Alpha Estimator",
+    "section": "",
+    "text": "This shiny app estimates stock-specific CAPM alphas and betas for your favorit stocks from selected market indexes.\nThis app is a prototype based on the book Tidy Finance with R and a submission for the 2024 Shiny Contest by Posit.\nYou can find the app on shinyapps.io and the source on Github."
   }
 ]
