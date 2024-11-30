@@ -1,0 +1,22 @@
+---
+title: "Debt Network Visualizer"
+description: "Visualize global debt networks based on World Bank International Debt Statistics"
+metadata:
+  pagetitle: "Debt Network Visualizer"
+author: "Christoph Scheuch"
+date: "2024-11-30" 
+image: thumbnail.png
+image-alt: A screenshot of the debt network visualizer app.
+categories: 
+  - R
+---
+
+This shiny app visualizes networks of external debt for selected countries or counterparts. 
+
+This app is a product in the promotion efforts of the release of the [`wbids`](https://teal-insights.github.io/r-wbids/) R package. 
+
+You can find the app on [shinyapps.io](https://christophscheuch.shinyapps.io/app-debt-network-visualizer/) and the source on [Github](https://github.com/tidy-intelligence/app-debt-network-visualizer).
+
+```{=html}
+<iframe id="example1" src="https://christophscheuch.shinyapps.io/app-debt-network-visualizer/" style="border: none; width: 100%; height: 1600px" frameborder="0"></iframe>
+```

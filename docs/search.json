@@ -7,11 +7,18 @@
     "text": "This shiny app computes stock-specific return metrics and optimal portfolio weights for your favorite stocks from the S&P 500 index.\nThis app is a prototype based on the book Tidy Finance with R and a submission for the 2024 Table Contest by Posit.\nYou can find the app on shinyapps.io and the source on Github."
   },
   {
+    "objectID": "apps/debt-network-visualizer/index.html",
+    "href": "apps/debt-network-visualizer/index.html",
+    "title": "Debt Network Visualizer",
+    "section": "",
+    "text": "This shiny app visualizes networks of external debt for selected countries or counterparts.\nThis app is a product in the promotion efforts of the release of the wbids R package.\nYou can find the app on shinyapps.io and the source on Github."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Tidy Intelligence",
     "section": "",
-    "text": "Alpha Estimator\n\n\nEstimate asset-specific CAPM alphas & betas for selected markets\n\n\n\n\n\n\n\n\n\n\n\n\n\nStock Analyzer\n\n\nCompute stock-specific return metrics & optimal portfolio weights for your favorite stocks\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Debt Network Visualizer\n\n\nVisualize global debt networks based on World Bank International Debt Statistics\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlpha Estimator\n\n\nEstimate asset-specific CAPM alphas & betas for selected markets\n\n\n\n\n\n\n\n\n\n\n\n\n\nStock Analyzer\n\n\nCompute stock-specific return metrics & optimal portfolio weights for your favorite stocks\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "apps/alpha-estimator/index.html",
